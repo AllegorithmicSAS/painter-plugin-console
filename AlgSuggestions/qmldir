@@ -1,0 +1,15 @@
+module AlgSuggestions
+
+# singletons
+singleton Suggestions 1.0 Suggestions.qml
+
+# GUI helpers
+SuggestionsFlow 1.0 SuggestionsFlow.qml
+SuggestionsTextEdit 1.0 SuggestionsTextEdit.qml
+
+# private widgets
+internal Model Model.qml
+internal Pattern Pattern.qml
+internal Separators Separators.qml
+internal Variables Variables.qml
+
