@@ -113,7 +113,7 @@ Rectangle {
               Layout.column: 1
               Layout.row: 2
 
-              text: 'Time: %1ms'.arg(model.elapsedMs)
+              text: qsTr('Time: %1ms').arg(model.elapsedMs)
               font.family: root.fontFamilyCode
             }
           }
@@ -201,7 +201,7 @@ Rectangle {
             anchors.fill: edit
             anchors.margins: 4
             font.family: root.fontFamilyCode
-            text: "Write script..."
+            text: qsTr("Write script...")
             color: AlgStyle.text.color.disabled
             visible: !edit.text
           }
