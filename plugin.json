@@ -1,6 +1,6 @@
 {
-  "description": "JavaScript console for Substance Painter.<br/>Code is executed in the plugin environment allowing to call the API.",
-  "version": "1.0.1",
+  "description": "JavaScript console for Substance 3D Painter.<br/>Code is executed in the plugin environment allowing to call the API.",
+  "version": "1.0.2",
   "license": "<a href=\"https://opensource.org/licenses/MIT\">MIT</a>",
   "min_api_version": "1.0.6"
 }
